@@ -1,377 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<!-- Head tag -->
-<head>
+		<title>Cloud Native Taiwan User Group</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
 
-    <!--Description-->
-    
-        <meta name="description" content="Cloud Native Taiwan User Group">
-    
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
 
-    <!--Author-->
-    
-        <meta name="author" content="Cloud Native Taiwan User Group">
-    
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <!--Open Graph Title-->
-    
-        <meta property="og:title" content="Cloud Native Taiwan User Group"/>
-    
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
 
-    <!--Open Graph Description-->
-    
-        <meta property="og:description" content="Cloud Native Taiwan User Group" />
-    
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+        <meta name="description" content="Cloud Native Taiwan User Group 希望整合台灣雲端相關社群如 OpenStack, Kubernetes, Ceph, SDN 等，並利用 Meetup 定期在各台灣地區舉辦技術與推廣分享活動。目的是藉此群策群力來使該社團快速成長，以對台灣在雲端開源平台的貢獻，另外我們更希望該社群持有 Cloud Native 概念，並將此推廣至台灣企業、學校、政府單位等。">
+		<meta property="og:image" content="./img/backgound.jpg">
+		<meta property="og:url" content="http://cloudnative.tw">
+		<meta property="og:description" content="Cloud Native Taiwan User Group 希望整合台灣雲端相關社群如 OpenStack, Kubernetes, Ceph, SDN 等，並利用 Meetup 定期在各台灣地區舉辦技術與推廣分享活動。目的是藉此群策群力來使該社團快速成長，以對台灣在雲端開源平台的貢獻，另外我們更希望該社群持有 Cloud Native 概念，並將此推廣至台灣企業、學校、政府單位等。">
+		<meta property="og:site_name" content="Cloud Native 台灣社群">
 
-    <!--Open Graph Site Name-->
-    <meta property="og:site_name" content="Cloud Native Taiwan User Group"/>
+    </head>
+	<body>
 
-    <!--Type page-->
-    
-        <meta property="og:type" content="website" />
-    
+		<!-- Header -->
+		<header id="header" class="transparent-nav">
+			<div class="container">
 
-    <!--Page Cover-->
-    
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="index.html">
+							<img src="./img/logo.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
 
-    
-        <meta name="twitter:card" content="summary" />
-    
-    
-    
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
 
-    <!-- Title -->
-    
-    <title>Cloud Native Taiwan User Group</title>
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="#about">關於我們</a></li>
+                        <li><a href="#cfp">成為講者</a></li>
+						<li><a href="#cta">聯絡資訊</a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
 
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+			</div>
+		</header>
+		<!-- /Header -->
 
-    <!-- Custom Fonts -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!-- Home -->
+		<div id="home" class="hero-area">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/background.jpg)"></div>
+			<!-- /Backgound Image -->
 
-    <!-- Gallery -->
-    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+			<div class="home-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<h1 class="white-text">Cloud Native Taiwan User Group</h1>
+							<p class="lead white-text">加入雲原生台灣社群</p>
+							<a class="main-button icon-button" href="https://fb.cloudnative.tw">Facebook 社團</a>
+                            <a class="main-button icon-button" href="https://t.me/cntug">Telegram 群組</a>
+                            <a class="main-button icon-button" href="https://www.meetup.com/CloudNative-Taiwan/">MeetUp</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <!-- Custom CSS -->
-    
-<link rel="stylesheet" href="/css/style.css">
+		</div>
+		<!-- /About -->
+		<div id="about" class="section">
+			<!-- container -->
+			<div class="container">
 
+				<!-- row -->
+				<div class="row">
 
-    <!-- Google Analytics -->
-    
+					<div class="col-sm-12">
+						<h2>關於我們</h2>
+						<p>Cloud Native Taiwan User Group 希望整合台灣雲端相關社群如 OpenStack, Kubernetes, Ceph, SDN 等，並利用 Meetup 定期在各台灣地區舉辦技術與推廣分享活動。目的是藉此群策群力來使該社團快速成長，以對台灣在雲端開源平台的貢獻，另外我們更希望該社群持有 Cloud Native 概念，並將此推廣至台灣企業、學校、政府單位等。</p>
+					</div>
+				</div>
+				<!-- /row -->
 
+			</div>
+			<!-- /container -->
 
-<meta name="generator" content="Hexo 5.4.0"></head>
+		</div>
+        <div id="cfp" class="section">
 
-
-<body>
-
-<div class="bg-gradient"></div>
-<div class="bg-pattern"></div>
-
-<!-- Menu -->
-<!--Menu Links and Overlay-->
-<div class="menu-bg">
-    <div class="menu-container">
-        <ul>
-            
-            <li class="menu-item">
-                <a href="/">
-                    Home
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/archives">
-                    Archives
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/about">
-                    About
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/tags">
-                    Tags
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/categories">
-                    Categories
-                </a>
-            </li>
-            
-            <li class="menu-item">
-                <a href="/contact.html">
-                    Contact
-                </a>
-            </li>
-            
-        </ul>
-    </div>
-</div>
-
-<!--Hamburger Icon-->
-<nav>
-    <a href="#menu"></a>
-</nav>
-
-<div class="container">
-
-    <!-- Main Content -->
-    <div class="row">
-    <div class="col-sm-12">
-
-        <!--Title and Logo-->
-        <header>
-    <div class="logo">
-        <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
-        
-            <h1 id="main-title" class="title">Cloud Native Taiwan User Group</h1>
-        
-    </div>
-</header>
-
-        <section class="main">
-            
-                
-<div class="post">
-
-    <div class="post-header index">
-        <h1 class="title">
-            <a href="/2021/04/18/about/">
-                about
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2021-04-18</span>
-            
-            
-            
-        </div>
-    </div>
-
-    
-        <div class="content">
-            <h1 id="關於我們-About-Us"><a href="#關於我們-About-Us" class="headerlink" title="關於我們 / About Us"></a>關於我們 / About Us</h1>
-        </div>
-    
-
-</div>
-            
-                
-<div class="post">
-
-    <div class="post-header index">
-        <h1 class="title">
-            <a href="/2021/04/18/Welcome-To-Cloud-Native-Taiwan-User-Group/">
-                歡迎來到 Cloud Native Taiwan User Group 大家庭
-            </a>
-        </h1>
-        <div class="post-info">
-            
-                <span class="date">2021-04-18</span>
-            
-            
-            
-        </div>
-    </div>
-
-    
-        <div class="content">
-            
-        </div>
-    
-
-</div>
-            
-        </section>
-    </div>
-</div>
+			<!-- container -->
+			<div class="container">
 
 
 
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-6">
+						<h3>成為講者</h3>
+						<p class="lead">我們歡迎任何人在社群中分享</p>
+						<p>來到 CNTUG 分享，不僅能夠分享經驗、磨練表達技巧，
+                           演講的過程中，你也能和 CNTUG 的社群夥伴互相交流切磋，
+                           投稿主題沒有限制，你可以用教學、心得分享、甘苦談等形式來分享。
+                           歡迎填寫我們的 Call For Speaker (CFP) 表單報名擔任講者，
+                           有了你的加入，CNTUG 的社群夥伴們將因你而持續成長。</p>
+						<a class="main-button icon-button" href="https://docs.google.com/forms/d/e/1FAIpQLSd67skDYwAnDl_MO5sWIb5YxvP8yYmV0Swo4oNu7LSVtgrsUA/viewform">我要分享！</a>
+					</div>
+
+					<div class="col-md-5 col-md-offset-1">
+						<iframe id="ad_video" width="420" height="300"
+                    src="https://www.youtube.com/embed/R6stUD0zNig"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
+					</div>
+
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+
+		</div>
+		<!-- /Why us -->
 
 
+		<!-- Contact CTA -->
+		<div id="cta" class="section">
 
-</div>
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta2-background.jpg)"></div>
+			<!-- Backgound Image -->
 
-<!-- Footer -->
-<div class="push"></div>
+			<!-- container -->
+			<div class="container">
 
-<footer class="footer-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 footer-about">
-                <h2>About</h2>
-                <p>
-                    We hold meetups every month to promote open source project, and encourage people to contribute projects.
-                </p>
-            </div>
-            
-    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 recent-posts">
-        <h2>Recent Posts</h2>
-        <ul>
-            
-            <li>
-                <a class="footer-post" href="/2021/04/18/about/">about</a>
-            </li>
-            
-            <li>
-                <a class="footer-post" href="/2021/04/18/Welcome-To-Cloud-Native-Taiwan-User-Group/">歡迎來到 Cloud Native Taiwan </a>
-            </li>
-            
-        </ul>
-    </div>
+				<!-- row -->
+				<div class="row">
 
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<h2 class="white-text">聯絡我們</h2>
+						<p class="lead white-text">對於 CloudNative Taiwan User Group 有任何想法與建議，皆歡迎讓我們知道！</p>
+						<a class="main-button icon-button" href="mailto:organizers@cloudnative.tw">Contact Us Now</a>
+					</div>
 
+				</div>
+				<!-- /row -->
 
-            
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <ul class="list-inline footer-social-icons">
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://github.com/klugjo/hexo-theme-alpha-dust">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-github"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://twitter.com/?lang=en">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-twitter"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://www.facebook.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-facebook"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://www.instagram.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-instagram"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://dribbble.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-dribbble"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://telegram.org/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-telegram"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://www.behance.net/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-behance"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a target="_blank" rel="noopener" href="https://500px.com/">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-500px"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a href="mailto:test@example.com">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-envelope-o"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li class="list-inline-item">
-                        <a href="\#">
-                            <span class="footer-icon-container">
-                                <i class="fa fa-rss"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="footer-copyright">
-                    @Untitled. All right reserved | Design & Hexo <a target="_blank" rel="noopener" href="http://www.codeblocq.com/">Jonathan Klughertz</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+			</div>
+			<!-- /container -->
 
-<!-- After footer scripts -->
+		</div>
+		<!-- /Contact CTA -->
 
-<!-- jQuery -->
-<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+		<!-- Footer -->
+		<footer id="footer" class="section">
 
-<!-- Tween Max -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+			<!-- container -->
+			<div class="container">
 
-<!-- Gallery -->
-<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+				<!-- row -->
+				<div class="row">
 
-<!-- Custom JavaScript -->
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.html">
+								<img src="./img/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
 
-<script src="/js/main.js"></script>
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+							<li><a href="#">關於我們</a></li>
+							<li><a href="contact.html">聯絡我們</a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="https://cloudnaitve.tw" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UCoYY8K9fbfDtTY7m68UCATA" class="youtube"><i class="fa fa-youtube"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2021. All Rights Reserved. | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com">Colorlib</a></span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
 
 
-<!-- Disqus Comments -->
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 
-
-
-</body>
-
+	</body>
 </html>
