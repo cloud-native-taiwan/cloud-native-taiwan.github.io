@@ -754,6 +754,19 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	background-color:#007bb5;
 }
 
+.footer-social li a.meetup {
+	background-color:#e51937;
+}
+
+.footer-social li a.telegram {
+	background-color:#0088CC;
+}
+
+.footer-social li a.github {
+	background-color:#030303;
+}
+
+
 /*------------------------------------*\
 	Contact Page
 \*------------------------------------*/
