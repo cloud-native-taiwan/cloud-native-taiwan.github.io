@@ -1,10 +1,41 @@
-# Cloud Native Taiwan User Group - Website
+# Website
 
-如果你發現 Cloud Native Taiwan User Group 社群的入口網頁有任何需要修正之處，歡迎發送 PR，會有志工協助處理！
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-## 如何貢獻
+### Installation
 
-本站為一頁式網頁，所有資訊皆寫在 index.html
-如果需要參考格式，已經將原本免費 template 的 example 備份到 index.template，可以做為參考。
+```
+$ yarn
+```
 
-目前官網採用的是由 [Colorlib](https://colorlib.com/wp/template/edusite/) 提供的免費 template。(Licence: CC BY 3.0)
+### Local Development
+
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
