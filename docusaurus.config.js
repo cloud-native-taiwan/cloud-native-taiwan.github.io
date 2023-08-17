@@ -62,7 +62,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/cntug-logo-wide.png',
       navbar: {
         title: 'Cloud Native Taiwan User Group',
         logo: {
