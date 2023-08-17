@@ -112,7 +112,7 @@ const config = {
                 href: 'https://t.me/cntug',
               },
               {
-                label: 'CNCF 組織',
+                label: '成為 CNCF Community 會員',
                 href: 'https://community.cncf.io/cloud-native-taiwan-user-group/',
               },
             ],
@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CNTUG, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Cloud Native Taiwan User Group, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

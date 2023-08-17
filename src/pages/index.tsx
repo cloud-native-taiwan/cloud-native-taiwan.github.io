@@ -28,7 +28,7 @@ function HomepageHeader() {
           <Link
             className="button button--primary button--sponsor button--lg "
             to="https://community.cncf.io/cloud-native-taiwan-user-group/">
-            CNCF 組織
+            成為 CNCF Community 會員
           </Link>
         </div>
       </div>
