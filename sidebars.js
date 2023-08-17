@@ -31,6 +31,17 @@ const sidebars = {
           'projects/glossary',
       ],
     },
+    {
+      type: 'category',
+      label: '講者投稿',
+      link: {
+        type: 'generated-index',
+        description: "中英講者投稿"
+      },
+      items: [
+          'cfp/cfp-en',
+      ],
+    }
   ],
 };
 
