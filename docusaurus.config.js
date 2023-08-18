@@ -94,6 +94,10 @@ const config = {
                 label: '關於我們',
                 to: '/docs/intro',
               },
+              {
+                label: 'Call for Proposals',
+                to: '/docs/cfp/cfp-en',
+              }
             ],
           },
           {
@@ -110,6 +114,10 @@ const config = {
               {
                 label: 'Telegram 群組',
                 href: 'https://t.me/cntug',
+              },
+              {
+                label: 'YouTube 頻道',
+                href: 'https://youtube.com/@cloudnativetaiwanusergroup',
               },
               {
                 label: '成為 CNCF Community 會員',
