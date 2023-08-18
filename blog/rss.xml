@@ -4,7 +4,7 @@
         <title>Cloud Native Taiwan User Group Blog</title>
         <link>https://cloudnative.tw/blog</link>
         <description>Cloud Native Taiwan User Group Blog</description>
-        <lastBuildDate>Thu, 17 Aug 2023 16:28:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 18 Aug 2023 02:57:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-TW</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[This is a Test Blog Post]]></title>
             <link>https://cloudnative.tw/blog/test</link>
             <guid>https://cloudnative.tw/blog/test</guid>
-            <pubDate>Thu, 17 Aug 2023 16:28:09 GMT</pubDate>
+            <pubDate>Fri, 18 Aug 2023 02:57:48 GMT</pubDate>
         </item>
     </channel>
 </rss>
