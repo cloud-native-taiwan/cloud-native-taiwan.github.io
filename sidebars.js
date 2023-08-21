@@ -41,7 +41,19 @@ const sidebars = {
       items: [
           'cfp/cfp-en',
       ],
+    },
+    {
+      type: 'category',
+      label: '贊助',
+      link: {
+        type: 'generated-index',
+        description: "贊助方案"
+      },
+      items: [
+          'sponsorship/sponsorship',
+      ],
     }
+
   ],
 };
 
