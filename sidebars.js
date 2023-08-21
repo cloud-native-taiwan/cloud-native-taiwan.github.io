@@ -21,7 +21,7 @@ const sidebars = {
     'intro',
     {
       type: 'category',
-      label: '專案',
+      label: '社群專案',
       link: {
         type: 'generated-index',
         description: "我們發起的專案"
@@ -29,6 +29,7 @@ const sidebars = {
       items: [
           'projects/infra_labs',
           'projects/glossary',
+          'projects/ithome-2023ironman'
       ],
     },
     {
