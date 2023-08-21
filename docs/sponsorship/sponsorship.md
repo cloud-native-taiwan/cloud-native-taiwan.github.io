@@ -61,12 +61,12 @@ CNTUG 的主要目標是持續經營社群，通過定期的技術討論和使�
 - 講者禮品（SWAG）使用（預計每年 5,000 NTD）
 - 國際講者旅行支援，包含來台單人住宿及來回機票經濟艙（預計每年 150,000 NTD）
 
-## 5.其他參考內容
-
 ## 5. 其他參考內容
+
+- [CNCF Chapter](https://community.cncf.io/cloud-native-taiwan-user-group/)
 - [官方網站](https://cloudnative.tw)
 - [Infra Labs 網站](https://docs.cloudnative.tw)
 
-## 6.聯絡資訊
-
 ## 6. 聯絡資訊
+
+- organizers@cloudnative.tw
