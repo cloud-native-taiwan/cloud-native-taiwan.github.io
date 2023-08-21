@@ -33,13 +33,14 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '講者投稿',
+      label: '持續徵稿',
       link: {
         type: 'generated-index',
-        description: "中英講者投稿"
+        description: "中英講者徵稿"
       },
       items: [
           'cfp/cfp-en',
+          'cfp/cfp-zh-tw'
       ],
     },
     {

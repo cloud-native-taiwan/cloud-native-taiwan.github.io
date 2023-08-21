@@ -10,8 +10,8 @@ description: CFP for Cloud Native Taiwan User Group Meetup
 
 # Call for Proposals (CFP)
 
-Last Updated: 20230817
-Version: English
+- Last Updated: 20230820
+- Version: English
 
 ## Submit Your Talk {#submit-cfp}
 
@@ -27,19 +27,19 @@ Please fill in [Cloud Native Taiwan User Group Meetup Call for Speaker][7], or
 - Agenda topic:
 - Agenda introduction:
 - Language of the agenda: `Mandarin Chinese` / `English`
-- The duration of your agenda (mins): `60` / 15
+- The duration of your agenda (mins): `60` / 30 / 15
 - Location: `Online` / In-person / Both
 - Video recorded on YouTube: `YES` / no
 ```
 
 ## Suggested Topics
 
-- Needs to be related to [CNCF Landscape][1] or Software Infrastructure related projects
+- Needs to be related to [CNCF Landscape][1] or Software Infrastructure related projects such as Ceph, OpenStack, etc.
 - The main content needs to be technology-focused instead of marketing-focused
 
 ### About sales or marketing pitches
 
-In order to promote more vendors or users to participate, Clound Native Taiwan User Gorup allows Sales or Marketing Pitches to be placed on the last few pages of each session. The number of pages will depend on the length of the presentation, up to a maximum of 2 pages, not including the opening and closing.
+In order to promote more vendors or users to participate, Cloud Native Taiwan User Gorup allows sales or marketing pitches to be placed on the last few pages of each session. The number of pages will depend on the length of the presentation, up to a maximum of 2 pages, not including the opening and closing.
 
 ## Submission Types
 
