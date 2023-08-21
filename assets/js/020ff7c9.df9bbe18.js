@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcntug=self.webpackChunkcntug||[]).push([[5245],{4179:s=>{s.exports=JSON.parse('{"label":"cnsw","permalink":"/blog/tags/cnsw","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcntug=self.webpackChunkcntug||[]).push([[9754],{186:s=>{s.exports=JSON.parse('{"label":"sponsorship","permalink":"/blog/tags/sponsorship","allTagsPath":"/blog/tags","count":1}')}}]);

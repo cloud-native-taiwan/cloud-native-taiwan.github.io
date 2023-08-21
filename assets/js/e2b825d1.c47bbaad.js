@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcntug=self.webpackChunkcntug||[]).push([[464],{8247:e=>{e.exports=JSON.parse('{"label":"cntug-cfp","permalink":"/docs/tags/cntug-cfp","allTagsPath":"/docs/tags","count":1,"items":[{"id":"cfp/cfp-en","title":"Call for Proposals","description":"CFP for Cloud Native Taiwan User Group Meetup","permalink":"/docs/cfp/cfp-en"}]}')}}]);
