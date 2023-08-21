@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcntug=self.webpackChunkcntug||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"This is a Test Blog Post","permalink":"/blog/test"}]}')}}]);
