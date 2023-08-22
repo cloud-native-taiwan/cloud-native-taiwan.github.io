@@ -21,19 +21,6 @@ const sidebars = {
     'intro',
     {
       type: 'category',
-      label: '社群專案',
-      link: {
-        type: 'generated-index',
-        description: "我們發起的專案"
-      },
-      items: [
-          'projects/infra_labs',
-          'projects/glossary',
-          'projects/ithome-2023ironman'
-      ],
-    },
-    {
-      type: 'category',
       label: '持續徵稿',
       link: {
         type: 'generated-index',
@@ -57,6 +44,12 @@ const sidebars = {
     }
 
   ],
+  projectSidebar: [
+    'projects/glossary',
+    'projects/infra_labs',
+    'projects/ithome-2023ironman',
+  ],
+
 };
 
 module.exports = sidebars;
