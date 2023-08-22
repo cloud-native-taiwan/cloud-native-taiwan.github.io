@@ -77,6 +77,12 @@ const config = {
             position: 'left',
             label: '關於我們',
           },
+          {
+            type: 'docSidebar',
+            sidebarId: 'projectSidebar',
+            position: 'left',
+            label: '相關專案',
+          },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/cloud-native-taiwan/cloud-native-taiwan.github.io',
