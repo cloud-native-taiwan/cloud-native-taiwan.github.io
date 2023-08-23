@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcntug=self.webpackChunkcntug||[]).push([[7347],{5905:e=>{e.exports=JSON.parse('{"title":"2023","description":"2023","slug":"/category/2023","permalink":"/docs/category/2023","navigation":{"next":{"title":"[Workshop] Podman \u5be6\u6230\u5efa\u7f6e\u76e3\u63a7 + \u8b66\u5831\u7cfb\u7d71","permalink":"/docs/meetups/2023/workshop"}}}')}}]);
