@@ -31,18 +31,7 @@ const sidebars = {
           'cfp/cfp-zh-tw'
       ],
     },
-    {
-      type: 'category',
-      label: '2022',
-      link: {
-        type: 'generated-index',
-        description: "2022"
-      },
-      items: [
-          'sponsorship/sponsorship',
-      ],
-    }
-
+    'sponsorship/sponsorship',
   ],
   projectSidebar: [
     {
@@ -121,7 +110,6 @@ const sidebars = {
         }
       ],
     },
-
   ]
 };
 
