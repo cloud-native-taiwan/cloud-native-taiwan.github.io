@@ -8,8 +8,8 @@ description: CNTUG 贊助方案書
 
 # 贊助方案書
 
-Last Updated: 20230820
-Version: zh-TW
+- Last Updated: 20230820
+- Version: zh-TW
 
 ![logo-wide](/img/CNTUG-logo.png)
 
