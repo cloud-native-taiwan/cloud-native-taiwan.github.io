@@ -30,24 +30,17 @@ CNCF Sustainability Week - Taiwan x Green Software Foundation 將於台北 [TBD]
 ## 預定議程資訊
 
 - 日期: `2023/10/24`
-- 時間: `19:00 - 21:00`
+- 時間: `18:30 - 21:00`
 - 地點: `實體`
 - 最多座位數: `取決於地點`
 - 註冊網站: [CNCF Community Group - Cloud Native Taiwan User Group][4]
 - 語言: `中文`
 
-### 議程簡介
+### 議程連結
 
-| 時間 | 議程名 | 講者名 |
-|:---:|:------|:------|
-| 18:30 | Opening and Welcome| |
-| 19:00 | Introduction CNSW and GSF | |
-| 19:05 | Lightning talks: TAG Environmental Sustainability | Phil Huang |
-| 19:25 | Lightning talks: What Makes Software Green? | Sarah Hsu |
-| 19:45 | Lightning talks: TBD | TBD |
-| 19:45 | Break | |
-| 20:00 | Panel Discussion | Phil Huang, Sarah Hsu, TBD |
-| 21:00 | Closing, networking and drinks |
+採用 Cloud Native Community Groups 的系統
+
+[CNCF Sustainability Week - Taiwan x Green Software Foundation](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/)
 
 ## 合辦社群
 
