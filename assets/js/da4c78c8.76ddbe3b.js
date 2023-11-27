@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcntug=self.webpackChunkcntug||[]).push([[6265],{2485:s=>{s.exports=JSON.parse('{"label":"glossary","permalink":"/blog/tags/glossary","allTagsPath":"/blog/tags","count":1}')}}]);
