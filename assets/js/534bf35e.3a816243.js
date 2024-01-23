@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcntug=self.webpackChunkcntug||[]).push([[5340],{8226:e=>{e.exports=JSON.parse('{"label":"year-end-recap","permalink":"/blog/tags/year-end-recap","allTagsPath":"/blog/tags","count":1}')}}]);
