@@ -4,10 +4,53 @@
         <title>Cloud Native Taiwan User Group Blog</title>
         <link>https://cloudnative.tw/blog</link>
         <description>Cloud Native Taiwan User Group Blog</description>
-        <lastBuildDate>Mon, 25 Dec 2023 18:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 03 Apr 2024 18:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-TW</language>
+        <item>
+            <title><![CDATA[Kubernetes Community Days Taipei 2024 開始徵稿啦！]]></title>
+            <link>https://cloudnative.tw/blog/kcd-2024-cfp</link>
+            <guid>https://cloudnative.tw/blog/kcd-2024-cfp</guid>
+            <pubDate>Wed, 03 Apr 2024 18:00:00 GMT</pubDate>
+            <description><![CDATA[Call for Proposal —— KCD 2024]]></description>
+            <content:encoded><![CDATA[<p>Kubernetes Community Days Taipei 2024 開始徵稿啦！
+CfP 連結：<a href="https://pretalx.coscup.org/coscup-2024/">https://pretalx.coscup.org/coscup-2024/</a>
+議程軌請選擇：「Kubernetes Community Day Taipei」
+即日起到 5/9 止，只要你的主題符合以下條件之一，歡迎來投稿：</p>
+<ul>
+<li>CNCF 專案 <a href="https://landscape.cncf.io/">https://landscape.cncf.io/</a></li>
+<li>OpenInfra 專案</li>
+<li>與基礎設施相關的開源專案（運算、網路、儲存等）</li>
+<li>雲端原生使用案例</li>
+</ul>
+<p>其中有些條件要務必遵守，請避免以下內容：</p>
+<ul>
+<li>供應商特定 (Vendor specific)</li>
+<li>銷售或市場營銷宣傳</li>
+<li>未經許可或可能是非開源技術</li>
+</ul>
+<p>為了鼓勵新人分享，KCD Taipei 2024 有參與這次 COSCUP 的 First Time Program，投稿時只要按下「我是第一次投稿 COSCUP，願意收到修改建議。」，4/30 以前會得到修改建議，提升入選機率喔！趕快提交你的議程吧！</p>
+<p>Kubernetes Community Days Taipei 2024 is now calling for proposals!
+CfP link: <a href="https://pretalx.coscup.org/coscup-2024/">https://pretalx.coscup.org/coscup-2024/</a>
+Select the track "Kubernetes Community Day Taipei."
+From now until May 9th, we welcome submissions if your topic meets any of the following criteria:</p>
+<ul>
+<li>CNCF projects <a href="https://landscape.cncf.io/">https://landscape.cncf.io/</a></li>
+<li>OpenInfra projects</li>
+<li>Open-source projects related to infrastructure (compute, network, storage, etc.)</li>
+<li>Cloud-native use cases</li>
+</ul>
+<p>Some conditions must be adhered to; please avoid the following content:</p>
+<ul>
+<li>Vendor-specific</li>
+<li>Sales or marketing promotions</li>
+<li>Unauthorized or potentially non-open-source technology</li>
+</ul>
+<p>KCD Taipei 2024 is participating in the First Time Program for this COSCUP to encourage newcomers to share. When submitting, select "Yes, both are true." in response to the question, "Is this your first time submitting to COSCUP, and are you willing to receive initial review feedback?" You will receive suggestions for improvement before April 30th to increase your chances of being selected! Hurry up and submit your proposal!</p>]]></content:encoded>
+            <category>kcd</category>
+            <category>cfp</category>
+        </item>
         <item>
             <title><![CDATA[Cloud Native Taiwan User Group 2023 年度回顧]]></title>
             <link>https://cloudnative.tw/blog/2023-year-end-recap</link>
@@ -174,7 +217,7 @@ Glossary 提供所有參與者使用且供應商保持中立的平台，以組�
 <li>場地設備租借費用</li>
 <li>日常社群經營必要費用</li>
 </ol>
-<h2 id="關�於-cloud-native-taiwan-user-group">關於 Cloud Native Taiwan User Group</h2>
+<h2 id="關於-cloud-native-taiwan-user-group">關於 Cloud Native Taiwan User Group</h2>
 <ul>
 <li><a href="https://community.cncf.io/cloud-native-taiwan-user-group/">Cloud Native Taiwan User Group (CNTUG)</a> 現為 CNCF 官方認證的在地社群，可以依據 CNCF 規範在地進行合作或活動</li>
 <li>Cloud Native Taiwan User Group 現行於 <a href="https://www.facebook.com/groups/cloudnative.tw">Facebook 社團</a>，共計有 6,600 位成員。</li>

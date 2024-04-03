@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcntug=self.webpackChunkcntug||[]).push([[6399],{7872:s=>{s.exports=JSON.parse('{"label":"cfp","permalink":"/blog/tags/cfp","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
