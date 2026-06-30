@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcntug=globalThis.webpackChunkcntug||[]).push([[314],{185(a){a.exports=JSON.parse('{"tag":{"label":"cfp","permalink":"/blog/tags/cfp","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/cfp","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

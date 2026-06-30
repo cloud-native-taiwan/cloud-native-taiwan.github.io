@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcntug=globalThis.webpackChunkcntug||[]).push([[9227],{8136(a){a.exports=JSON.parse('{"tag":{"label":"kcd","permalink":"/blog/tags/kcd","allTagsPath":"/blog/tags","count":1,"unlisted":false},"listMetadata":{"permalink":"/blog/tags/kcd","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

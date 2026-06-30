@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkcntug=globalThis.webpackChunkcntug||[]).push([[6288],{6288(c,e,a){a.d(e,{createInfoServices:()=>s.v});var s=a(9511);a(9302)}}]);
